@@ -1,0 +1,25 @@
+.bodyWraper {
+    margin-top: 50px;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+}
+form {
+    margin-top: 50px;
+    display: flex;
+    flex-flow: column;
+    align-items: center;  
+}
+.mat-focus-indicator {
+    background-color: #4FC3A1;
+    color: white;
+}
+.mat-focus-indicator:hover {
+    background-color: #324960;
+}
+span{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 25px;
+    color: #324960;
+    text-shadow: 1px 1px lightgrey;
+}

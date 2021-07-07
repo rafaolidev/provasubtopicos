@@ -1,0 +1,46 @@
+<div class="bodyWraper">
+    <span>Preencha os campos e clique em cadastrar para efetuar o cadastro</span>
+    <form class="example-form">
+        <table class="example-full-width" cellspacing="0">
+            <tr>
+                <td>
+                    <mat-form-field class="example-full-width" appearance="fill">
+                        <mat-label>Dono</mat-label>
+                        <input matInput type="text" name="dono" [(ngModel)]="computador.dono">
+                    </mat-form-field>
+                </td>
+                <td>
+                    <mat-form-field class="example-full-width" appearance="fill">
+                        <mat-label>Placa Mãe</mat-label>
+                        <input matInput type="text" name="placamae" [(ngModel)]="computador.placamae">
+                    </mat-form-field>
+                </td>
+                <td>
+                    <mat-form-field class="example-full-width" appearance="fill">
+                        <mat-label>Processador</mat-label>
+                        <input matInput type="text" name="processador" [(ngModel)]="computador.processador">
+                    </mat-form-field>
+                </td>
+                <td>
+                    <mat-form-field class="example-full-width" appearance="fill">
+                        <mat-label>Memória</mat-label>
+                        <input matInput type="number" name="memoria" [(ngModel)]="computador.memoria">
+                    </mat-form-field>
+                </td>
+                <td>
+                    <mat-form-field class="example-full-width" appearance="fill">
+                        <mat-label>Armazenamento</mat-label>
+                        <input matInput type="text" name="armazenamento" [(ngModel)]="computador.armazenamento">
+                    </mat-form-field>
+                </td>
+                <td>
+                    <mat-form-field class="example-full-width" appearance="fill">
+                        <mat-label>Fonte de Alimentação</mat-label>
+                        <input matInput type="text" name="fonte" [(ngModel)]="computador.fonte">
+                    </mat-form-field>
+                </td>
+            </tr>
+        </table>
+        <button mat-button color="primary" (click)="cadastrar()">cadastrar</button>
+    </form>
+</div>

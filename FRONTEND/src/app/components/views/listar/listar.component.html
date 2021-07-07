@@ -1,0 +1,50 @@
+<div class="table-wrapper">
+<table class="fl-table">
+    <thead>
+        <tr>
+            <th>ID</th>
+            <th>Dono</th>
+            <th>Placa Mãe </th>
+            <th>Processador</th>
+            <th>memória</th>
+            <th>Aramazenamento</th>
+            <th>Fonte</th>
+            <th>Entrada</th>
+            <th>Ação</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr class="data" *ngFor="let computador of computador">
+            <td>
+                {{computador._id}}
+            </td>
+            <td>
+                {{computador.dono}}
+            </td>
+            <td>
+                {{computador.placamae}}
+            </td>
+            <td>
+                {{computador.processador}}
+            </td>
+            <td>
+                {{computador.memoria}}
+            </td>
+            <td>
+                {{computador.armazenamento}}
+            </td>
+            <td>
+                {{computador.fonte}}
+            </td>
+            <td>
+                {{computador.createdAt}}
+            </td>
+            <div class="acoes">
+                <button mat-button color="primary">deletar</button>
+                <button class="editar" mat-button color="primary">editar</button>
+            </div>
+            
+        </tr>       
+    </tbody>
+</table>
+</div>

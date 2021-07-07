@@ -1,0 +1,21 @@
+mat-toolbar {
+    background-color:#324960 ;
+    color: white;
+    justify-content: space-around;
+}
+.mat-focus-indicator {
+    background-color: #4FC3A1;
+    color: white;
+}
+.mat-focus-indicator:hover {
+    background-color: rgba( 71, 147, 227, 1);
+}
+.buttonWraper {
+    width: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+span {
+    font-family: 'Montserrat', sans-serif;
+}
