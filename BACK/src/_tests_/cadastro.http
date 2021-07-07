@@ -1,0 +1,12 @@
+POST http://localhost:3000/computador/cadastrar
+Content-Type:application/json
+
+{
+    "dono":"Bruno",
+    "placamae":"Asus",
+    "processador":"intel i9",
+    "memoria":"32",
+    "armazenamento":"HD 50gb",
+    "fonte":"450w"
+}
+##
